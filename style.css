@@ -1,0 +1,78 @@
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.navbar{
+    margin: 10px 40px 0px 40px;
+}
+.nav-item{
+    margin-left: 50px;
+}
+main{
+    background-color: black;
+    color: white;
+}
+h1{
+    padding-bottom: 10px;
+}
+.intro{
+    margin: 250px auto 250px auto;
+    font-size: 50px;
+    color: black;
+}
+.btn-dark{
+    margin-bottom: 350px;
+}
+#about,#portofolio{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+img{
+    border-radius: 8px;
+}
+.pic{
+    margin: 20px;
+}
+p{
+    color: #ffffffbb;
+}
+.container-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+#contact h1{
+    text-align: center;
+}
+.contact-image{
+    width: 10rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.contact-text{
+    text-align: center;
+}
+.contact-image:hover{
+    transition: 0.4s ease;
+    transform: scale(1.1);
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
