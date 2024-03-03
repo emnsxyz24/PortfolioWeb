@@ -5,12 +5,12 @@ body {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
-	height: 100vh;
     font-family: 'Montserrat', sans-serif;
 
 }
 header {
     font-weight: 600;
+    height: 950px;
 }
 .navbar{
     margin: 10px 40px 0px 40px;
@@ -22,7 +22,6 @@ header {
     
 }
 .nav-item:hover{
-    /* transition: 0.4s ease; */
     transform: scale(1.1);
 }
 main{
@@ -33,12 +32,12 @@ h1{
     padding-bottom: 10px;
 }
 .intro{
-    margin: 250px auto 250px auto;
+    margin: 295px auto 250px -1px;
     font-size: 50px;
     color: black;
 }
 .more-info{
-    padding-bottom: 345px;
+    margin-bottom: 340px;
 }
 .test{
     cursor: pointer;
@@ -83,7 +82,11 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0;
+    /* margin: 0; */
+}
+.contact-item{
+    text-align: center;
+    margin: 10px;
 }
 #contact h1{
     text-align: center;
